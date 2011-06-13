@@ -140,14 +140,14 @@ public class TestPoliticalAgent extends AbstractAgent
                     invitationHolders.remove(this.getId());
             }
 
-            if (SatisfiedInGroup())
-            {
-                return null;
-            }
-            else
-            { 
-                return leaveGroup;
-            }
+//            if (SatisfiedInGroup())
+//            {
+//                return null;
+//            }
+//            else
+//            {
+//                return leaveGroup;
+//            }
         }
         else if(this.invitationToGroup != null) //If this agent has a pending invitation to a group, return the invitation
         {
